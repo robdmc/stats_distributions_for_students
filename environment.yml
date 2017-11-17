@@ -1,0 +1,11 @@
+# Run this to create: conda env create --force -f environment.yml
+name: distviz
+dependencies:
+    - python=3.6
+    - jupyter
+    - matplotlib=2.0
+    - pandas
+    - scipy
+    - pip:
+        - bokeh==0.12.10
+        - holoviews==1.9.0
